@@ -16,6 +16,7 @@
 <configuration description="Config for CTS-on-GSI CtsOnGsiKernelNetdTest.">
     <option name="test-suite-tag" value="cts" />
     <option name="config-descriptor:metadata" key="component" value="kernel" />
+    <target_preparer class="com.android.tradefed.targetprep.RootTargetPreparer" />
     <target_preparer class="com.android.compatibility.common.tradefed.targetprep.VtsFilePusher">
         <option name="abort-on-push-failure" value="false"/>
         <option name="push" value="DATA/nativetest/netd_integration_test/netd_integration_test->/data/nativetest/CtsOnGsiKernelNetdTest"/>

@@ -57,7 +57,7 @@ KSFT_CASES_STABLE = map(lambda x: test_case.LinuxKselftestTestcase(*(x)), [
     ("timers", "set-timer-lat", ["arm", "x86"], [32, 64]),
     ("timers", "threadtest", ["arm", "x86"], [32, 64]),
     ("timers", "valid-adjtimex", ["arm", "x86"], [64]),
-    ("vDSO", "kselftest_vdso_test", ["arm", "x86"], [32, 64]),
+    ("vDSO", "kselftest_vdso_test", ["arm", "x86"], [64]),
     ("x86", "single_step_syscall", ["x86"], [32, 64]),
     ("x86", "sysret_ss_attrs", ["x86"], [32]),
     ("x86", "syscall_nt", ["x86"], [32, 64]),
