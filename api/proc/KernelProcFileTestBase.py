@@ -94,7 +94,7 @@ class KernelProcFileTestBase(object):
     t_COLON = r':'
     t_EQUALS = r'='
     t_COMMA = r','
-    t_PERIOD = r'.'
+    t_PERIOD = r'\.'
     t_STRING = r'[a-zA-Z\(\)_0-9\-@]+'
 
     t_TAB = r'\t'
